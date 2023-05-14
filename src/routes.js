@@ -2,6 +2,7 @@ const express = require('express')
 const path = require('path');
 const router = express.Router()
 
+//rotas
 router.get('/server', (request, response)=>{
     response.json({message: "servidor on-line 💻"})
 })
